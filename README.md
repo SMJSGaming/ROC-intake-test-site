@@ -69,7 +69,7 @@ CSS part (Put this in the head).
 </head>
 ```
 
-JavaScript part (Put this at the bottom).
+JavaScript part (Put this at the bottom of your page (Under the body tag)).
 ```html
 <script>
 	var ads = document.getElementsByTagName("iframe");
