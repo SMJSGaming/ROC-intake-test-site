@@ -4,7 +4,7 @@ This is a website I had to make for the intake test of ROC Flevoland. I do not a
 Click this [link](http://geometrydashprogramming.7m.pl/) to visit the site.
 **The page is not finished yet but that has to do with the fact that I had 3 days for this.**
 
-
+------------------------------------------------------------------------------------------------------------------
 
 My built in adblocker for 7m.pl is made open source for general use. just use the code bolow in their respective place.
 
