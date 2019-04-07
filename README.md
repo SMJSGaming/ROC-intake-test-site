@@ -4,6 +4,8 @@ This is a website I had to make for the intake test of ROC Flevoland. I do not a
 Click this [link](http://geometrydashprogramming.7m.pl/) to visit the site.
 
 My built in adblocker for 7m.pl is made open source for general use. just use the code bolow in their respective place.
+
+CSS part (Put this in the head).
 ```html
 <head>
   <style>
@@ -65,4 +67,22 @@ My built in adblocker for 7m.pl is made open source for general use. just use th
     }
   </style>
 </head>
+```
+
+JavaScript part (Put this at the bottom).
+```html
+<script>
+	var ads = document.getElementsByTagName("iframe");
+	for(var i = 0; i<ads.length; i++){
+		ads[i].sandbox = "";
+		ads[i].remove();
+		ads[i].parentNode.removeChild(ads[i]);
+	}
+	var ads = document.getElementsByTagName("ins");
+	for(var i = 0; i<ads.length; i++){
+		ads[i].sandbox = "";
+		ads[i].remove();
+		ads[i].parentNode.removeChild(ads[i]);
+	}
+</script>
 ```
