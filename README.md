@@ -6,7 +6,7 @@ Click this [link](http://geometrydashprogramming.7m.pl/) to visit the site.
 
 ------------------------------------------------------------------------------------------------------------------
 
-My built in adblocker for 7m.pl is made open source for general use. just use the code bolow in their respective place.
+My built in adblocker for 7m.pl is made open source for general use. just use the code below in their respective place.
 
 CSS part (Put this in the head).
 ```html
